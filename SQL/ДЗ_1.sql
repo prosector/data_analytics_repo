@@ -23,11 +23,11 @@ CREATE TABLE persons (
 INSERT INTO
     persons
 VALUES
-    (1, 'Sofia Coppola'),
-    (2, 'Luc Besson'),
-    (3, 'Mamoru Oshii'),
-    (4, 'Robert Longo'),
-    (5, 'Tim Burton');
+    (11, 'Sofia Coppola'),
+    (22, 'Luc Besson'),
+    (33, 'Mamoru Oshii'),
+    (44, 'Robert Longo'),
+    (55, 'Tim Burton');
 
 CREATE TABLE persons2content (
     person_id INTEGER,
@@ -38,8 +38,8 @@ CREATE TABLE persons2content (
 INSERT INTO
     persons2content
 VALUES
-    (1, 1, 'director'),
-    (2, 2, 'director'),
-    (3, 3, 'director'),
-    (4, 4, 'director'),
-    (5, 5, 'director');
+    (11, 1, 'director'),
+    (22, 2, 'director'),
+    (33, 3, 'director'),
+    (44, 4, 'director'),
+    (55, 5, 'director');
